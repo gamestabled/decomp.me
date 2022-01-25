@@ -10,6 +10,7 @@ const ICONS = {
     "gba": LogoGBA,
     "gc_wii": LogoGCWii,
     "nds_arm9": LogoNDS,
+    "3ds": LogoGBA,
     "n64": LogoN64,
     "ps1": LogoPS1,
     "ps2": LogoPS2,

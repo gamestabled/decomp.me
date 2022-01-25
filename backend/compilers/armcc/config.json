@@ -1,0 +1,4 @@
+{
+    "platform": "3ds",
+    "cc": "\"${COMPILER_DIR}\"/bin/armcc.exe $COMPILER_FLAGS \"$INPUT\" -o \"$OUTPUT\""
+}

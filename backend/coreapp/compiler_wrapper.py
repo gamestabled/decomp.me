@@ -333,6 +333,15 @@ def load_platforms() -> Dict[str, Platform]:
 .endm
 """
         ),
+        "3ds": Platform(
+            "Nintendo 3DS",
+            "ARMv6 (little-endian)",
+            "arm32",
+            assemble_cmd='arm-none-eabi-as -march=vr4300 -mabi=32 -o "$OUTPUT" "$INPUT"',
+            objdump_cmd="arm-none-eabi-objdump",
+            nm_cmd="arm-none-eabi-nm",
+            asm_prelude=""""""
+        ),
 
     }
 

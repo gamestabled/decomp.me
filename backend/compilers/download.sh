@@ -51,3 +51,9 @@ if [[ "$uname" != "Darwin" ]]; then
     mkdir -p "$compiler_dir/agbccpp"
     curl -L "https://github.com/notyourav/agbcc/releases/download/cp/agbcc.tar.gz" | tar zx -C "$compiler_dir"/agbccpp
 fi
+
+#armcc (3ds)
+if [[ "$uname" != "Darwin" ]]; then
+    mkdir -p "$compiler_dir/armcc"
+    curl -L "https://github.com/notyourav/agbcc/releases/download/cp/agbcc.tar.gz" | tar zx -C "$compiler_dir"/armcc
+fi
